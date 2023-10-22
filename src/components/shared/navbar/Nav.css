@@ -1,0 +1,139 @@
+:root {
+  --bg-primary: #3498db;
+  --bg-color: #f2f2f2;
+  --bg-dark:#212529;
+  --bg-light:#FFFFFF;
+}
+
+ .k-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--bg-dark);
+    color: #fff;
+  }
+  
+  .logo img {
+    width: 50px;  
+  }
+  
+  .links a {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .links .dropdown-content a {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .k-nav-links{
+    display: flex;
+    /* speak: digits; */
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+ 
+  
+   /* ... Previous CSS ... */
+
+.mobile-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .mobile-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:var(--bg-dark);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    /* display: block; */
+    padding: 10px 20px;
+    display: grid;
+  }
+
+
+  /* media queries for mobile */
+
+  @media (max-width: 768px) {
+    .k-navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .links {
+      margin-top: 20px;
+    }
+  
+    .links a {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .k-navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 20px;
+    }
+  
+    .links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .links.open {
+      display: flex;
+
+      text-align: center;
+    }
+  
+    .mobile-toggle {
+      display: flex;
+
+      position: absolute;
+    right: 26px;
+    border: 1px solid gray;
+    padding: 5px 10px;
+    border-radius: 6px;
+
+    }
+  
+    .mobile-toggle.open .bar:nth-child(1) {
+      /* transform: rotate(-45deg) translate(-5px, 6px); */
+      transform: rotate(-45deg) translate(-6px, 7px);
+    }
+  
+    .mobile-toggle.open .bar:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .mobile-toggle.open .bar:nth-child(3) {
+      transform: rotate(45deg) translate(-5px, -7px);
+    }
+  }
+  

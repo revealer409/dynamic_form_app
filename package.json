@@ -1,15 +1,29 @@
 {
-  "name": "jockeyjourney",
+  "name": "dynamic_form_app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
+    "@reduxjs/toolkit": "^1.9.7",
     "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^29.5.3",
+    "@types/node": "^20.4.8",
+    "@types/react": "^18.2.19",
+    "@types/react-dom": "^18.2.7",
+    "bootstrap": "^5.3.1",
+    "formik": "^2.4.3",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.47.0",
+    "react-redux": "^8.1.3",
+    "react-router-dom": "^6.17.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "redux": "^4.2.1",
+    "sass": "^1.66.1",
+    "styled-components": "^6.1.0",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +48,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/react": "^14.0.0"
   }
 }

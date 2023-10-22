@@ -1,0 +1,86 @@
+
+[
+  {
+      "id": "firstName",
+      "name":"firstName",
+      "label":"First Name",
+      "placeholder": "First name",
+      "required": true,
+      "type": "text"
+    },
+    {
+      "id": "lastName",
+      "name":"lastName",
+      "label":"Last Name",
+      "placeholder": "Last name",
+      "required": true,
+      "type": "text"
+    },
+    {
+      "id": "Email",
+      "name":"Email",
+      "label":"Email",
+      "placeholder": "Email",
+      "required": true,
+      "validations":["required","email"],
+      "type": "email"
+    },
+    {
+      "id": "address",
+      "name":"address",
+      "label":"Address",
+      "placeholder": "Address ",
+      "type": "text"
+    },
+    {
+      "id": "city",
+      "name":"city",
+      "label":"City",
+      "placeholder": "City",
+      "type": "text"
+    },
+    {
+      "id": "state",
+      "name":"State",
+      "label":"State",
+      "placeholder": "State",
+      "type": "text"
+    },
+    {
+      "id": "zip",
+      "name":"zip",
+      "label":"Zip",
+      "placeholder": "Zip",
+      "type": "text"
+    },
+    {
+      "id": "phone",
+      "name":"phone",
+      "placeholder": "phone",
+      "label":"Phone",
+      "required": true,
+      "type": "text"
+    },
+    {
+      "id": "jobTitle",
+      "name":"jobTitle",
+      "label":"Job Title",
+      "options": [
+        "Engineer - lead",
+        "Engineer - mid level",
+        "Engineer - junion",
+        "Engineer - front end focused",
+        "Engineer - backend focused",
+        "Engineer - full stack"
+      ],
+      "placeholder": "Please select job title",
+      "type": "select"
+    },
+    {
+      "id": "reason",
+      "name":"reason",
+      "label":"Reason",
+      "placeholder": "Describe why you are a good fit for the job you are applying for.",
+      "type": "textarea"
+    }
+  ]

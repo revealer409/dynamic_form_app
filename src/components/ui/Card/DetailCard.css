@@ -1,0 +1,8 @@
+
+@media (max-width: 768px) {
+    .card-responsive {
+      width: 80% !important; /* Make the card full width on smaller screens */
+      text-align: center;
+
+    }
+  }
