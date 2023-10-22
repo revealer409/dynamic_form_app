@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useSelector } from "react-redux";
 import { RootState } from "../../store/reducers/rootReducer";
 import { Link, useNavigate } from "react-router-dom";
-
+import './ThankYouCard.css'
 const ThankYouCard: React.FC = () => {
   const formData = useSelector((state: RootState) => state.form.data);
 
@@ -26,7 +26,7 @@ const ThankYouCard: React.FC = () => {
     // )}
     // </div>
 
-    <div className="vh-100 d-flex justify-content-center align-items-center">
+    <div className="wrapper  d-flex justify-content-center align-items-center">
       <div className="card col-lg-5 col-md-6  col-10 bg-white shadow-md p-5   ">
         <div className="mb-4 text-center">
           <svg

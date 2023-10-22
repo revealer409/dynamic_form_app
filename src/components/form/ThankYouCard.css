@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px) {
+    .wrapper {
+      height: 62vh; /* Adjust the value as needed for mobile devices */
+    }
+  }
+  
+  /* Media query for larger devices (e.g., tablets and desktops) */
+  @media screen and (min-width: 769px) {
+    .wrapper {
+      height: 70vh;
+    }
+  }

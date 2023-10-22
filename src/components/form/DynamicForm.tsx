@@ -83,7 +83,7 @@ const DynamicForm: React.FC = () => {
             </div>
             <div className="d-flex justify-content-end ">
               <button
-                className="btn btn-primary mt-4  btn-lg mx-5 "
+                className="btn btn-primary mt-0  btn-lg mx-5 "
                 type="submit"
               >
                 Submit

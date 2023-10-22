@@ -59,7 +59,8 @@
       "placeholder": "phone",
       "label":"Phone",
       "required": true,
-      "type": "text"
+      "pattern":"[0-9]*",
+      "type": "number"
     },
     {
       "id": "jobTitle",

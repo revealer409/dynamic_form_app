@@ -5,6 +5,7 @@ interface FormFieldModel {
     label?:string;
     placeholder?:string;
     required?:boolean;
+    pattern?:string;
     options?:Array<string>   
   }
 
